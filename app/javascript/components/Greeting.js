@@ -1,13 +1,14 @@
-import React from "react"
-import PropTypes from "prop-types"
-class Greeting extends React.Component {
-  render () {
-    return (
-      <React.Fragment>
-        <div>Greeting</div>
-      </React.Fragment>
-    );
-  }
-}
+import React from 'react';
+import { useSelector } from 'react-redux';
+import Loading from './Loading';
 
-export default Greeting
+const Greeting = () => {
+  const { message, isLoading } = useSelector(state => state.greetings);
+  return (
+    <div className="greetings">
+      { isLoading ? <Loading /> : <h1>Greeting: {message}</h1>}
+    </div>
+  );
+};
+
+export default Greeting;
