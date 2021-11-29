@@ -52,6 +52,10 @@
 ```
   rails webpacker:install
 ```
+### Run 
+```
+  rails s -p 3000
+```
 ## Author
 
 👤 **Omoogun Olawale**
