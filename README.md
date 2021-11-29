@@ -48,6 +48,10 @@
 ```
     bundle install
 ```
+```
+  npm install
+  yarn install
+```
 > **_NOTE_** Install webpacker
 ```
   rails webpacker:install
