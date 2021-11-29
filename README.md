@@ -8,7 +8,7 @@
 - Ruby on Rails
 - ReactJS
 # Screenshot
-![screenshot](https://github.com/olawale-o/rails_blog_app/blob/develop/screenshot.png?raw=true")
+![screenshot](https://github.com/olawale-o/hello-rails-react/blob/develop/screenshot.png?raw=true")
 ## Getting started
 
 #### Prerequisites
